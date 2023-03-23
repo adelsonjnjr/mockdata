@@ -1,0 +1,47 @@
+{
+  "employees": [
+    {
+      "id": 12,
+      "lastname": "Adelson",
+	  "firstname": "Jean Junior",
+	  "statusId" : 1
+    },
+    {
+      "id": 15,
+      "lastname": "Lespinas",
+	  "firstname": "Pierre",
+	  "statusId" : 2
+    },
+    {
+      "id": 18,
+      "lastname": "Jean",
+	  "firstname": "Joel",
+	  "statusId" : 2
+    },
+    {
+      "id": 21,
+      "lastname": "Enock",
+	  "firstname": "Jabouin",
+	  "statusId" : 3
+    }
+  ],
+  
+  "status": [
+    {
+      "id": 1,
+      "description": "Employee is active"
+    },
+    {
+      "id": 2,
+      "description": "Employee is permanently inactive"
+    },
+    {
+      "id": 3,
+      "description": "Employee is temporary inactive"
+    },
+    {
+      "id": 4,
+      "description": "Other, This Id cannot be used anymore for thechnical reasons"
+    }
+  ]
+}
